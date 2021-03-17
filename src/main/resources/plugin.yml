@@ -1,0 +1,13 @@
+name: ItemsCore
+main: me.bmonkey.items.Main
+version: 1.0
+author: Bmonkey
+api-version: 1.16
+
+commands:
+  citem:
+    description: Create an Item!
+    usage: /<command>
+  citemc:
+    description: Lol
+    usage: /<command>

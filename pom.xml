@@ -27,7 +27,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.2.0</version>
                 <configuration>
-                    <outputDirectory>C:\Users\Bmonk\Desktop\1.16.3 Server\plugins</outputDirectory>
+                    <outputDirectory>C:\Users\Bmonk\Desktop\Spigot server\plugins</outputDirectory>
                 </configuration>
             </plugin>
         </plugins>

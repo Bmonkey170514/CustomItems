@@ -18,7 +18,7 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
 
-        this.SQL = new SqlConnect();
+        this.SQL = new SqlConnect(this);
         this.data = new CreateTables(this);
 
         try {
@@ -41,7 +41,10 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        SQL.disconnect();
+        if(SQL.isConnected()) {
+            SQL.disconnect();
+        }
+        this.saveDefaultConfig();
     }
 
 }

@@ -1,0 +1,22 @@
+##########################
+#                        #
+#    ItemsCore Config    #
+#                        #
+##########################
+
+sql:
+
+  #this is the host of the database
+  host: host
+
+  #Usally 3306
+  port: 3306
+
+  #This is the name for your database, the plugin will create the tables automatically;
+  database_name: name
+
+  #This is the username for the database
+  username: user
+
+  #This is the password for the database
+  password: password
